@@ -75,17 +75,5 @@
             }
             return neighbours;
         }
-
-        public static void DrawGrid()
-        {
-            for (int row = 0; row < MazeManager.BoardLength; row++)
-            {
-                for (int col = 0; col < MazeManager.BoardHeight; col++)
-                {
-                    Console.Write(MazeManager.CellGrid[row][col].CellType);
-                }
-                Console.WriteLine();
-            }
-        }
     }
 }
